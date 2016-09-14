@@ -1,9 +1,15 @@
 package lab6;
 
+import java.util.Scanner;
+
 public class pigLatin {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		// header
+		System.out.println("Welcome to the Pig Latin Translator!");
+		System.out.print("Enter a line to be translated: ");
+		String sentence = input.nextLine();
 
 	}
 
