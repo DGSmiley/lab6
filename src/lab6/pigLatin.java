@@ -10,9 +10,15 @@ public class pigLatin {
 		System.out.println("Welcome to the Pig Latin Translator!");
 		System.out.print("Enter a line to be translated: ");
 		String sentence = input.nextLine();
-		
-		System.out.println(sentence.toLowerCase());
+		char [] vol = {'a', 'e', 'i', 'o', 'u'};
+		char firstLetter = sentence.charAt(0);
 
+		/*if (firstLetter.eqauls(vol)) {
+			System.out.println("sent");
+
+			// final output in lower case
+		} else {
+			System.out.println(sentence.toLowerCase());
+		} */
 	}
-
 }
